@@ -1,0 +1,31 @@
+@use '../abstract/mixins';
+@use '../abstract/variables' as vars;
+@use 'header';
+@use 'footer';
+@use 'container';
+
+
+.logo-absolute {
+   position: absolute;
+   width: 100px !important;
+   top: 75%;
+   right: 9%;
+}
+
+.line {
+   position: absolute;
+   width: 90%;
+   height: 2px;
+   top: 88%;
+   left: 5%;
+   right: 5%;
+   background: #fff;
+}
+
+ 
+@include mixins.media-md {
+   .logo-absolute {
+      width: 100px !important;
+      top: 70%;
+   }
+}
