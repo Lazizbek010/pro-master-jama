@@ -3616,7 +3616,6 @@ body {
     margin: 0;
     margin-left: -100px;
     z-index: -200;
-    margin-top: 130px;
   }
   .home .logo-absolute {
     top: 72%;
@@ -3854,7 +3853,6 @@ body {
     margin-top: -250px;
   }
   .who .img img {
-    width: 70% !important;
     margin: 0;
     z-index: -1;
     margin-top: 300px;
@@ -3953,7 +3951,7 @@ body {
   }
   .home .zind {
     margin: 0;
-    width: 170%;
+    width: 170% !important;
     margin-left: -100px;
     z-index: -200;
     margin-top: 130px;
@@ -4181,7 +4179,6 @@ body {
     margin-top: -250px;
   }
   .who .img img {
-    width: 70% !important;
     margin: 0;
     z-index: -1;
     margin-top: 300px;
@@ -4231,7 +4228,8 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .shape {
+  .shape,
+  .shapes {
     display: none;
   }
   .home__flex {
@@ -4261,6 +4259,9 @@ body {
     letter-spacing: 1px;
     line-height: 1.1;
   }
+  .home div .index {
+    width: 90%;
+  }
   .home .index .home-heading {
     width: 100% !important;
   }
@@ -4276,17 +4277,12 @@ body {
     left: 0;
     height: auto;
   }
-  .home .Noutbuk {
-    width: 444px;
-    right: 30%;
-    top: 15%;
-    display: none;
-  }
   .home .zind {
     margin: 0;
+    width: 120%;
+    top: 15%;
     margin-left: -100px;
     z-index: -200;
-    margin-top: 130px;
   }
   .home .logo-absolute {
     top: 78%;
@@ -4482,10 +4478,10 @@ body {
     margin-top: -50px;
   }
   .who .img {
-    display: none;
+    width: 100%;
   }
   .who .img img {
-    display: none;
+    width: 100%;
   }
   .connect .team__center {
     font-weight: 600 !important;

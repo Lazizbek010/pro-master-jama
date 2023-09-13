@@ -4571,7 +4571,6 @@ body {
          // width: 170%;
          margin-left: -100px;
          z-index: -200;
-         margin-top: 130px;
       }
 
       .logo-absolute {
@@ -4923,7 +4922,7 @@ body {
       margin-top: -250px;
 
       img {
-         width: 70% !important;
+         // width: 70% !important;
          margin: 0;
          z-index: -1;
          margin-top: 300px;
@@ -5075,7 +5074,7 @@ body {
 
       .zind {
          margin: 0;
-         width: 170%;
+         width: 170% !important;
          margin-left: -100px;
          z-index: -200;
          margin-top: 130px;
@@ -5407,7 +5406,7 @@ body {
       margin-top: -250px;
 
       img {
-         width: 70% !important;
+         // width: 70% !important;
          margin: 0;
          z-index: -1;
          margin-top: 300px;
@@ -5483,7 +5482,8 @@ body {
 
 @include mixins.media-md {
 
-   .shape {
+   .shape, 
+   .shapes {
       display: none;
    }
 
@@ -5523,6 +5523,9 @@ body {
                line-height: 1.1;
             }
          }
+         .index{
+            width: 90%;
+         }
       }
 
       .index {
@@ -5555,19 +5558,20 @@ body {
       }
 
 
-      .Noutbuk {
-         width: 444px;
-         right: 30%;
-         top: 15%;
-         display: none;
-      }
+      // .Noutbuk {
+      //    width: 444px;
+      //    right: 30%;
+      //    top: 15%;
+      //    // display: none;
+      // }
 
       .zind {
          margin: 0;
-         // width: 120%;
+         width: 120% ;
+         top: 15%;
+
          margin-left: -100px;
          z-index: -200;
-         margin-top: 130px;
       }
 
 
@@ -5850,11 +5854,13 @@ body {
    }
 
    .who {
+
       .img {
-         display: none;
+         width: 100%;
 
          img {
-            display: none;
+            width: 100%;
+
          }
       }
    }
