@@ -715,7 +715,12 @@ body {
     .calc-inner-title h1 {
         font-size: 11px;
     }
-
+    .cal-footer p{
+        font-size: 9px;
+    }
+    .cal-footer{
+        height: 100px;
+    }
     .calc-body-row {
         display: block;
     }

@@ -4926,7 +4926,7 @@ body {
          margin: 0;
          z-index: -1;
          margin-top: 300px;
-         
+
          background-size: auto;
       }
    }
@@ -5060,8 +5060,7 @@ body {
 
       .home__bg {
          left: 0%;
-         width: 100% !important;
-         height: 150%;
+         top: 95% !important;
       }
 
 
@@ -5104,9 +5103,16 @@ body {
 
    }
 
+   #home {
+      img {
+         width: 90%;
+         padding-left: 120px;
+      }
+   }
+
    .home__more {
       div {
-         margin-top: 150px !important;
+         margin-top: 15px !important;
       }
    }
 
@@ -5146,7 +5152,7 @@ body {
 
    .home__info {
       display: grid;
-      margin: 25px 0 0 10px !important;
+      margin: 25px 0 80px 10px !important;
 
       .home__info-box {
          padding: 30px 58px !important;
@@ -5406,11 +5412,10 @@ body {
       margin-top: -250px;
 
       img {
-        
+
          margin: 0;
          z-index: -1;
-         margin-top: 150px;
-         
+
          background-size: auto;
       }
    }
@@ -5482,7 +5487,7 @@ body {
 
 @include mixins.media-md {
 
-   .shape, 
+   .shape,
    .shapes {
       display: none;
    }
@@ -5501,10 +5506,10 @@ body {
    }
 
    .home {
+      
       div {
 
          .moreCont {
-            margin-top: 55px !important;
             width: 90% !important;
             bottom: 0;
 
@@ -5523,7 +5528,8 @@ body {
                line-height: 1.1;
             }
          }
-         .index{
+
+         .index {
             width: 90%;
          }
       }
@@ -5551,7 +5557,7 @@ body {
       }
 
       .home__bg {
-         top: 15%;
+         top: 65%;
          width: 100% !important;
          left: 0;
          height: auto;
@@ -5567,7 +5573,7 @@ body {
 
       .zind {
          margin: 0;
-         width: 120% ;
+         width: 120%;
          top: 15%;
 
          margin-left: -100px;
@@ -5588,10 +5594,16 @@ body {
       }
 
       &>img {
-         width: 62%;
+         width: 92%;
+         padding-left: 200px;
+         margin-top: -280px;
+         z-index:
+            -20;
       }
 
-
+.broimg{
+   margin-top: 20px;
+}
 
 
 
@@ -5601,7 +5613,7 @@ body {
       height: auto;
 
       div {
-         margin-top: 250px;
+         margin-top: 5cqh;
       }
    }
 
@@ -5845,7 +5857,6 @@ body {
    }
 
    .whoDizayn {
-      margin: 0 !important;
 
       .who__content {
          margin-top: -50px;
@@ -5859,7 +5870,7 @@ body {
          width: 100% !important;
          margin: 0 auto;
 
-         
+
       }
    }
 
