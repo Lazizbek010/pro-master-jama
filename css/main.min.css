@@ -3856,7 +3856,6 @@ body {
     margin: 0;
     z-index: -1;
     margin-top: 300px;
-    margin-bottom: -500px;
     background-size: auto;
   }
   .result .result__list .result__item h1 {
@@ -4181,8 +4180,7 @@ body {
   .who .img img {
     margin: 0;
     z-index: -1;
-    margin-top: 300px;
-    margin-bottom: -500px;
+    margin-top: 150px;
     background-size: auto;
   }
   .connect .team__center {
@@ -4478,10 +4476,8 @@ body {
     margin-top: -50px;
   }
   .who .img {
-    width: 100%;
-  }
-  .who .img img {
-    width: 100%;
+    width: 100% !important;
+    margin: 0 auto;
   }
   .connect .team__center {
     font-weight: 600 !important;
